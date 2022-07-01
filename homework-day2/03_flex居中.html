@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex居中</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            height: 100%;
+            width: 100%;
+            background-color: aliceblue;
+            /* flex属性 */
+            display: flex;
+            position: absolute;
+            /* 水平居中 */
+            justify-content: center;
+            /* 垂直居中 */
+            align-items: center;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            
+        }
+    </style>
+</head>
+<body>
+     <!-- 使用 flex 布局实现一个方块在页面中的垂直水平居中 -->
+    <div class="box"></div>
+</body>
+</html>
